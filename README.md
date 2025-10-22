@@ -1,2 +1,0 @@
-# nantawut-sowanu
-mooow

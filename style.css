@@ -1,0 +1,35 @@
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #ed9ef0;
+  --background-color: #ffffff;
+  --surface-color: #ffffff;
+  --text-color: #212529;
+  --border-color: #c5c5c5;
+}
+body {
+  background-color: var(--background-color);
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-color);
+}
+
+.page-header {
+    background-color: rgb(170, 101, 190);
+    padding: 20px;
+  
+}
+#page-title {
+  color: var(--primary-color);
+  /* สีน้ําเงินเขม */
+  font-size: 24px;
+}
+
+.card {
+  background-color: var(--surface-color);
+  padding: 20px;
+  border: 1px solid var(--border-color);
+  margin: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
